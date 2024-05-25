@@ -2,8 +2,6 @@
 
 # Mini Magazin Online
 
-Mini Magazin Online
-Descriere
 Mini Magazin Online este o aplicație web simplă, creată pentru a demonstra funcționalitățile de bază ale unui magazin online.
 Aplicația permite utilizatorilor:
 * să vizualizeze o listă de produse și servicii
@@ -40,21 +38,21 @@ Aceasta este o aplicație web simplă pentru un mini magazin online, dezvoltată
 Pentru realizarea acestui proiect, am folosit următoarele tehnologii și tool-uri:
 
 * Python: Limbajul de programare principal pentru dezvoltarea aplicației.
-* 
+
 * Flask: Un framework web pentru Python, folosit pentru dezvoltarea aplicației web.
-* 
+
 * HTML și CSS: Folosite pentru structurarea și stilizarea paginilor web.
-* 
+
 * Jinja2: Un motor de șabloane pentru Python, integrat cu Flask pentru generarea dinamică a paginilor web.
-* 
+
 * Git și GitHub: Git a fost folosit pentru controlul versiunilor proiectului, iar GitHub a fost folosit pentru găzduirea și colaborarea la cod.
-* 
+
 * PyCharm: Un mediu de dezvoltare integrat (IDE) pentru Python, utilizat pentru scrierea și testarea codului.
-* 
+
 * Terminalul sau linia de comandă: Folosit pentru gestionarea pachetelor Python, controlul versiunilor cu Git și rularea comenzilor de sistem.
-* 
+
 * SQLite: Un sistem de gestionare a bazelor de date relaționale, utilizat pentru stocarea și gestionarea datelor în cadrul aplicației.
-* 
+
 Acestea sunt principalele tehnologii și tool-uri utilizate în realizarea proiectului.
 
 
@@ -76,10 +74,10 @@ Poți folosi venv sau virtualenv. Iată cum poți crea și activa un mediu virtu
 python -m venv venv
 .\venv\Scripts\activate   
 
---->>Instalare dependențelor: Instalează dependențele proiectului folosind pip:
+-->>Instalare dependențelor: Instalează dependențele proiectului folosind pip:
 pip install -r requirements.txt
 
---->>>Configurare bazei de date: 
+-->>Configurare bazei de date: 
 Poate fi necesar să configurezi calea către baza de date SQLite în fișierul config.py, în funcție de cum este definită în proiect.
 
 ### Rularea Aplicatiei
